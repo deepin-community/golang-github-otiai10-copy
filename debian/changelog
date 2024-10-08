@@ -1,5 +1,26 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-otiai10-copy (1.2.0-3) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + golang-github-otiai10-copy-dev: Add Multi-Arch: foreign.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 26 Nov 2022 03:27:05 +0000
+
+golang-github-otiai10-copy (1.2.0-2) unstable; urgency=low
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Thorsten Alteholz ]
+  * upload source package
+  * add myself to Uploaders:
+  * debian/control: use dh13
+  * debian/control: bump standard to 4.5.1 (no changes)
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Wed, 06 Jan 2021 18:16:27 +0000
+
+golang-github-otiai10-copy (1.2.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #963505)
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 22 Jun 2020 17:25:47 +0000
